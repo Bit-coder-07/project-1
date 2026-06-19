@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #1f2937;
+    background: linear-gradient(180deg, #eef4ff 0%, #f8fafc 55%, #edf4f8 100%);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(135deg, #173f77, #2b6cb0);
+    color: #ffffff;
+    padding: 28px 20px;
+    text-align: center;
+}
+
+#company-name {
+    font-size: 36px;
+    margin: 0;
+}
+
+nav {
+    background: rgba(13, 42, 77, 0.92);
+    padding: 12px 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    font-size: 16px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 24px 20px 40px;
+}
+
+.hero,
+#about,
+#services,
+#contact,
+.info-grid article {
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(148, 163, 184, 0.22);
+    border-radius: 18px;
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.08);
+    margin-bottom: 20px;
+    padding: 22px;
+}
+
+.eyebrow {
+    margin: 0 0 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 12px;
+    color: #2b6cb0;
+    font-weight: 700;
+}
+
+.hero h2,
+h2 {
+    color: #173f77;
+    margin-top: 0;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.info-grid h3 {
+    margin-top: 0;
+    color: #173f77;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+ul {
+    font-size: 16px;
+}
+
+address {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+address a {
+    color: #2b6cb0;
+}
+
+main p:last-child {
+    margin-bottom: 0;
+}
+
+footer {
+    background: #173f77;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px;
+}
