@@ -1,0 +1,103 @@
+<!-- Name: Saad | Roll No: 2502901540075 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InternConnect - Apply Now</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>InternConnect</h1>
+        <p>Find the right internship for you</p>
+    </header>
+
+    <main>
+
+        <section class="intro">
+            <p class="eyebrow">Simple application flow with clear instructions</p>
+            <h2>Apply for an internship with a form that is easy to read and easy to complete.</h2>
+            <p>InternConnect helps students submit their details, choose a role, and explain their interest in a short, organized way. The layout below shows how a clean form can guide users step by step.</p>
+        </section>
+
+        <h2>Internship Application Form</h2>
+
+        <section class="details">
+            <h3>Before you apply</h3>
+            <p>Keep your email active, write a short but specific message, and choose the role that best matches your current skills. A clear application is easier to review and usually creates a better first impression.</p>
+            <p>Good applications highlight motivation, basic experience, and the kind of work the student wants to learn next.</p>
+        </section>
+
+        <form method="post">
+
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="example@email.com" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="10-digit number" pattern="[0-9]{10}">
+
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob">
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Internship Details</legend>
+
+                <label>Preferred Role</label>
+
+                <label for="web">
+                    <input type="radio" id="web" name="role" value="web"> Web Development
+                </label>
+
+                <label for="data">
+                    <input type="radio" id="data" name="role" value="data"> Data Science
+                </label>
+
+                <label for="design">
+                    <input type="radio" id="design" name="role" value="design"> UI/UX Design
+                </label>
+
+                <label for="experience">Experience Level (0 to 5 years)</label>
+                <input type="range" id="experience" name="experience" min="0" max="5" value="0">
+
+                <label for="college">College Name</label>
+                <input type="text" id="college" name="college" list="college-list" placeholder="Start typing your college name">
+                <datalist id="college-list">
+                    <option value="ABESIT, Ghaziabad">
+                    <option value="AKGEC, Ghaziabad">
+                    <option value="IIT Delhi">
+                    <option value="IIT Bombay">
+                    <option value="NIT Allahabad">
+                </datalist>
+
+                <label for="message">Why do you want this internship?</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write a short answer (100 words)"></textarea>
+
+                <button type="submit">Submit Application</button>
+
+            </fieldset>
+
+        </form>
+
+        <section class="details">
+            <h3>What employers look for</h3>
+            <p>They usually want clarity, honesty, and a short explanation of how the applicant can contribute. This sample form shows how a UI can make that process feel less intimidating.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>InternConnect. Connecting students with opportunities. 2026.</p>
+    </footer>
+
+</body>
+</html>
